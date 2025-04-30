@@ -15,12 +15,6 @@ project(libharu
 
 include(GNUInstallDirs)
 
-<<<<<<< HEAD
-=======
-set(VCPKG_TARGET_TRIPLET x64-windows)
-include(C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
-
->>>>>>> 147b8e0 (Added vertical align to HPDF_Page_TextRect)
 # Location where the haru cmake build system first looks for cmake modules
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/modules)
 
